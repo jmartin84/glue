@@ -21,7 +21,7 @@ function maybe(item, action) {
 */
 function maybeNot(item, action) {
     if(item) {
-        return;
+        return item;
     }
     return action();
 }
